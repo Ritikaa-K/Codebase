@@ -1,0 +1,53 @@
+Notebook
+---------
+1. Importing the packages
+2. Exploring the dataset (english text for analysis)
+3. Visualization using seaborn & matplotlib
+	- displaying the sample outcome
+	- displaying the word cloud
+4. Feature Selection using pandas iloc
+5. Tokenization
+	- Countvectorizer
+	- Bert TOkenizer
+	- Keras Tokenizer
+6. Splitting the data to train and test
+7. Building the model
+	- Logistic Regression 
+    	- Random Forest
+   	- AdaBoost Classifier
+   	- SGD Classifier
+    	- KNN
+	- Decision Tree
+    	- MNB - Naive Bayes
+    	- SVM
+    	- MLP
+    	- Gradient Boosting 
+    	- Catboost
+    	- Voting Classifier (LR+RF+SVM)
+    	- RNN - LSTM 
+    	- CNN 
+    	- BERT - CNN
+	- BERT - BiLSTM
+	- BiRNN
+	- BiGRU
+	- GRU
+	- RNN
+    	- Deep Ensemble CNN + LSTM
+8. Training the model
+9. Building the model with MLP gives better accuracy
+Flask Framework
+----------------
+10. Flask Framework with Sqlite for signup and signin
+11. Importing the packages
+12. Exploring the dataset (english text for analysis)
+13. Data processing and training the model
+14. User gives input as chinese text 
+15. The given input is translated and preprocessed for prediction
+16. Trained model is used for prediction
+17. Final outcome is displayed through frontend
+
+Extension
+----------
+In the base paper, the author mentioned to use few Machine and Deep Learning models CNN,BiLSTM,BERt+CNN, BERT+LSTM, MSDM + BERT + CNN, MSDM + BERt + BiLSTM,in which CNN got 79%, 
+As an extension we have applied Voting Classifier,Bi-GRU,Bi-RNN,GRU,RNN,CNN+LSTM,MLP,AdaBoost,SGD, in which MLP got 86% 
+So with help of MLP we build the model, it is used for predicting the result for user inputs.
